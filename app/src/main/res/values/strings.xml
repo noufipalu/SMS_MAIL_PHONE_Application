@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMS_MAIL_PHONE_Application</string>
+    <string name="phone">Enter Mobile Number</string>
+    <string name="msg">Enter Message to be send</string>
+    <string name="mail">Enter Email Address</string>
+    <string name="sub">Subject</string>
+</resources>

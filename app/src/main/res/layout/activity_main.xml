@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Choose Any"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnSms"
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="Send SMS"
+        android:textColor="@color/white"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnCall"
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:text="Make A Call"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnWith"
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:text="Send Mail With Intent"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnWithout"
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:text="Send Mail Without Intent"
+        android:textColor="@color/white" />
+
+</LinearLayout>
